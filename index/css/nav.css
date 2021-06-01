@@ -1,9 +1,16 @@
 /* Global rules */
 .topnav {
-    margin: auto;
-    background-color: rgb(0, 0, 0);
+    background-color:#222;
+    border:1px solid grey;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.5);
     overflow: auto;
-    border-radius: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 3px;
+}
+a {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
 }
 
 .topnav a {
@@ -15,16 +22,36 @@
     text-decoration: none;
     text-transform: capitalize;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 3px;
+ 
 }
 
 .topnav a.hover, .active {
-    background-color: rgb(0, 0, 0);
+    background-color:#222;
+    border-radius: 3px;
+    
+   
 }
 
 .topnav .icon {
     display: none;
 }
+
+footer {
+    
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 3px;
+    overflow: auto;
+    
+}
+
+
 
 /* Responsive rules - apply when screen width is less than 1200px */
 

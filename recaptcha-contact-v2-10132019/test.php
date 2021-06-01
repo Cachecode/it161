@@ -120,8 +120,7 @@
             </ul>
         </div>    
     </p>    
-  
-    <?php
+	<?php
         /*
          * Below are 2 different forms to be re-used       
          * 
@@ -131,14 +130,14 @@
 
         include 'includes/contact_include.php'; #site keys & code here
     
-        $toAddress = "mattfelker206@outlook.com";  //place your/your client's email address here
-        $toName = "Matthieu Felker"; //place your client's name here
-        $website = "Contact Test site81";  //place NAME of your client's website
+        $toAddress = "name@example.com";  //place your/your client's email address here
+        $toName = "CLIENT NAME HERE"; //place your client's name here
+        $website = "CLIENT WEBSITE NAME HERE";  //place NAME of your client's website
 
-        //echo loadContact('simple.php');#demonstrates a simple contact form
-        echo loadContact('it161/includes/multiple.php');#demonstrates multiple form elements
+        echo loadContact('simple.php');#demonstrates a simple contact form
+        //echo loadContact('multiple.php');#demonstrates multiple form elements
 
-	?> <!-- Toggle between adding and removing th
+	?>
      </main>
     <footer>
       <small>&copy; 2013-<?=date('Y')?>, All Rights Reserved ~
